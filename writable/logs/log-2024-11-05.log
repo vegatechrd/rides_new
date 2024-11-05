@@ -3615,3 +3615,81 @@ in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
 10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-05 05:27:41 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Dias.php on line 34.
+ 1 APPPATH\Controllers\Dias.php(34): number_format(null, 2)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-05 05:27:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)' at line 3 in C:\laragon\www\rides\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\laragon\www\rides\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT SUM(tota...', 0)
+#1 C:\laragon\www\rides\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(tota...')
+#2 C:\laragon\www\rides\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(tota...')
+#3 C:\laragon\www\rides\system\Model.php(915): CodeIgniter\Database\BaseConnection->query('SELECT SUM(tota...')
+#4 C:\laragon\www\rides\app\Models\ViajesGastosModel.php(62): CodeIgniter\Model->__call('query', Array)
+#5 C:\laragon\www\rides\app\Controllers\Dias.php(35): App\Models\ViajesGastosModel->ObtenerBalancebyTipoTransaccion(2, '2024-11-05 00:5...')
+#6 C:\laragon\www\rides\system\CodeIgniter.php(933): App\Controllers\Dias->index()
+#7 C:\laragon\www\rides\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+#8 C:\laragon\www\rides\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\rides\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\rides\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\rides\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-05 05:27:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)' at line 3
+[Method: GET, Route: dias]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Model.php(915): CodeIgniter\Database\BaseConnection->query('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 2 APPPATH\Models\ViajesGastosModel.php(62): CodeIgniter\Model->__call('query', [...])
+ 3 APPPATH\Controllers\Dias.php(35): App\Models\ViajesGastosModel->ObtenerBalancebyTipoTransaccion(2, '2024-11-05 00:57:56')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 05:27:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 3 SYSTEMPATH\Model.php(915): CodeIgniter\Database\BaseConnection->query('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 4 APPPATH\Models\ViajesGastosModel.php(62): CodeIgniter\Model->__call('query', [...])
+ 5 APPPATH\Controllers\Dias.php(35): App\Models\ViajesGastosModel->ObtenerBalancebyTipoTransaccion(2, '2024-11-05 00:57:56')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-05 05:27:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 4 SYSTEMPATH\Model.php(915): CodeIgniter\Database\BaseConnection->query('SELECT SUM(total) as balance from viajes_gastos 
+	LEFT JOIN dias ON viajes_gastos.dia_id = dias.id
+	WHERE viajes_gastos.tipo_transaccion = 2 AND 2024-11-05 00:57:56(dias.fecha) = 2024-11-05 00:57:56(CURRENT_DATE)')
+ 5 APPPATH\Models\ViajesGastosModel.php(62): CodeIgniter\Model->__call('query', [...])
+ 6 APPPATH\Controllers\Dias.php(35): App\Models\ViajesGastosModel->ObtenerBalancebyTipoTransaccion(2, '2024-11-05 00:57:56')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
