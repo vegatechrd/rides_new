@@ -1,0 +1,18 @@
+CRITICAL - 2024-10-26 20:21:51 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-26 20:21:52 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

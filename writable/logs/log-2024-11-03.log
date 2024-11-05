@@ -1,0 +1,602 @@
+CRITICAL - 2024-11-03 00:49:26 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 00:49:27 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 01:52:04 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 01:52:05 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:19 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:19 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:23 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:24 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:29 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:29 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:41 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:41 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:54 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 02:17:54 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:15:05 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:15:05 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:32:55 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:32:55 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:32:57 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:32:57 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:33:03 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:33:04 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:43:03 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:43:04 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:44:55 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:44:56 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:44:58 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:44:58 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:45:03 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 04:45:03 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:33:51 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:33:51 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:38:32 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:38:34 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:39:29 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:39:29 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:40:34 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:40:34 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:42:40 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 15:42:40 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:05:03 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:05:03 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:34:16 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:34:17 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:34:18 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:34:19 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:34:24 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 16:34:25 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:01:51 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:01:51 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:02:13 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:02:14 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:07:04 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:07:04 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:07:07 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:07:07 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:07:13 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:07:13 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:30:35 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:30:35 --> ErrorException: Attempt to read property "kms_recogida" on null
+[Method: GET, Route: viajes/detail/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 197.
+ 1 APPPATH/Controllers/Viajes.php(197): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->detail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:30:37 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/__manifest.json]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:30:38 --> ErrorException: Attempt to read property "mins_recogida" on null
+[Method: GET, Route: viajes/edit/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Viajes.php on line 105.
+ 1 APPPATH/Controllers/Viajes.php(105): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Viajes->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:30:43 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/__manifest.json]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-11-03 17:30:43 --> Error: Attempt to assign property "balance" on null
+[Method: GET, Route: dias/list/assets/img/icon/192x192.png]
+in APPPATH/Controllers/Dias.php on line 161.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dias->list()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
