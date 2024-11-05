@@ -5,7 +5,6 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\DiasModel;
 use App\Models\ViajesGastosModel;
-use CodeIgniter\I18n\Time;
 
 class Dias extends BaseController
 {
@@ -18,8 +17,6 @@ class Dias extends BaseController
         $this->viajesgastosModel = new ViajesGastosModel();
 		
 	}
-
-	
 		
 	public function index()
 	{
@@ -28,22 +25,17 @@ class Dias extends BaseController
 
 		$datos = $this->diasModel->orderBy('fecha', 'DESC')->findAll(5);
 
-	 	foreach ($datos as $key => $value) {
-	
-     	$total_dia = $this->viajesgastosModel->ObtenerBalancebyDay(date('Y-m-d', strtotime($value->fecha)));
-		$datos[$key]->total_dia = number_format($total_dia,2);
-		$total_gastos = $this->viajesgastosModel->ObtenerBalancebyTipoTransaccion(2, $value->fecha);	
-		$datos[$key]->total_gastos = number_format($total_gastos,2);
-		$datos[$key]->pendiente = number_format(intval($value->meta) - intval($total_dia),2);
+		foreach ($datos as $key => $value) {
+
+		$datos[$key]->total_recaudado_dia = number_format($this->viajesgastosModel->getTotalesAll('total', null, null, 1, $value->id),2);
+		$datos[$key]->total_gastos = number_format($this->viajesgastosModel->getTotalesAll('total', null, null, 2,  $value->id),2);
+		$datos[$key]->ganancias = number_format($this->viajesgastosModel->GetGananciasAll($value->fecha, $value->fecha),2);
 		$datos[$key]->fecha_formateada = strftime('%a, %d %B %g', strtotime($value->fecha));
 		
 		// Calcular el total de kilòmetros del día
 
-//		$total_kms = $this->viajesModel->select('SUM(kms_recogida) + sum(kms_destino) as total')->where('dia_id', $value->id)->first();
-//		$total_kms_dia = $total_kms->total;
-//		$datos[$key]->total_kms_dia = $total_kms_dia;
-		
-		
+		$datos[$key]->total_kms_dia = $this->viajesgastosModel->getTotalKms(null, null, $value->id);
+			
 	 }
 
 	    $data = [
@@ -104,32 +96,24 @@ $fields['meta'] = $viaje[0]['meta'];
 	public function list($id)
 	{
 
-		$lista_viajes = $this->viajesModel->select('viajes.*, plataformas.descripcion as plataforma')
-		->join('plataformas', 'viajes.plataforma_id = plataformas.id', 'left')
-		->where('viajes.dia_id', $id)->findAll();
-
-		$lista_gastos = $this->gastosModel->select('gastos.*, gastos_categorias.descripcion as categoria')
-		->join('gastos_categorias', 'gastos.id_categoria_gasto = gastos_categorias.id', 'left')
-		->where('gastos.dia_id', $id)->findAll();
-		
+		$lista_transacciones = $this->viajesgastosModel->select('viajes_gastos.*, plataformas.descripcion as plataforma')
+		->join('plataformas', 'viajes_gastos.plataforma_id = plataformas.id', 'left')
+		->where('viajes_gastos.dia_id', $id)->findAll();
+			
 		$conteo_viajes = 1;
-		$conteo_gastos = 1;
-
-		foreach ($lista_viajes as $key => $value) {
+		
+		foreach ($lista_transacciones as $key => $value) {
 	
-			$total_mins =  date('H:i',strtotime($value->mins_recogida) + strtotime($value->mins_destino));	
-			$lista_viajes[$key]->total_mins = $total_mins;
-
-			$total_kms = $value->kms_recogida + $value->kms_destino;
-			$lista_viajes[$key]->total_kms = $total_kms;
-			$valor_x_km = $value->total / $total_kms;	
+			$lista_transacciones[$key]->total_mins = date('H:i',strtotime($value->mins_recogida) + strtotime($value->mins_destino));
+			$lista_transacciones[$key]->total_kms =  $value->kms_recogida + $value->kms_destino;
+			$valor_x_km = $value->total / $lista_transacciones[$key]->total_kms;	
 						
 			if (floatval($valor_x_km) > 25.0) {
 			
 			$tipo_viaje =  'text-success';	
 
 			}
-			elseif (floatval($valor_x_km) > 20.0 AND floatval($total_kms) < 25.0) {
+			elseif (floatval($valor_x_km) > 20.0 AND floatval($lista_transacciones[$key]->total_kms) < 25.0) {
 			
 				$tipo_viaje = 'text-warning';		
 
@@ -139,33 +123,26 @@ $fields['meta'] = $viaje[0]['meta'];
 				$tipo_viaje =  'text-danger';	
 
 			}
-			$lista_viajes[$key]->tipo_viaje = $tipo_viaje;
-			$lista_viajes[$key]->conteo_viajes = $conteo_viajes++;
+			$lista_transacciones[$key]->tipo_viaje = $tipo_viaje;
+			$lista_transacciones[$key]->conteo_viajes = $conteo_viajes++;
 			
-		}
-
-		foreach ($lista_gastos as $key => $value) {
-
-			$lista_gastos[$key]->conteo_gastos = $conteo_gastos++;
-
-
 		}
 		
 		$dia = $this->diasModel->where('id', $id)->first();
-		$total_recaudado = $this->viajesModel->select('SUM(total) as total')->where('dia_id', $id)->first();
-		$total_gastos = $this->gastosModel->select('SUM(total) as total')->where('dia_id', $id)->first();
+		$total_recaudado = $this->viajesgastosModel->select('SUM(total) as total')->where('dia_id', $id)->first();
+		$total_gastos = $this->viajesgastosModel->select('SUM(total) as total')->where('dia_id', $id)->first();
 		$dia->balance = $total_recaudado->total - $total_gastos->total;
 		$dia->pendiente = intval($dia->meta) - intval($total_recaudado->total);
-		$total_propinas = $this->viajesModel->select('SUM(propina) as total')->where('dia_id', $id)->first();
+		$total_propinas = $this->viajesgastosModel->select('SUM(propina) as total')->where('dia_id', $id)->first();
 		$dia->total_propinas = $total_propinas->total;
 		$dia->recaudado = $total_recaudado->total;
-	 	$cant_viajes = $this->viajesModel->select('COUNT(id) as cantidad')->where('dia_id', $id)->first();
+	 	$cant_viajes = $this->viajesgastosModel->select('COUNT(id) as cantidad')->where('dia_id', $id)->first();
 		$dia->cantidad_viajes = $cant_viajes->cantidad;
-		$total_tarjeta = $this->viajesModel->select('SUM(tarjeta) as total')->where('dia_id', $id)->first();
-		$total_efectivo = $this->viajesModel->select('SUM(efectivo) as total')->where('dia_id', $id)->first();
+		$total_tarjeta = $this->viajesgastosModel->select('SUM(tarjeta) as total')->where('dia_id', $id)->first();
+		$total_efectivo = $this->viajesgastosModel->select('SUM(efectivo) as total')->where('dia_id', $id)->first();
 		$dia->total_tarjeta = $total_tarjeta->total;
 		$dia->total_efectivo = $total_efectivo->total;
-		$total_kms = $this->viajesModel->select('SUM(kms_recogida) + SUM(kms_destino) as total')->where('dia_id', $id)->first();
+		$total_kms = $this->viajesgastosModel->select('SUM(kms_recogida) + SUM(kms_destino) as total')->where('dia_id', $id)->first();
 		$dia->total_kms_dia = $total_kms->total > 0 ? $total_kms->total : 0;
 		$dia->precio_km_viaje = $total_kms->total > 0 ? $total_recaudado->total / $total_kms->total : 0;
 
@@ -176,8 +153,7 @@ $fields['meta'] = $viaje[0]['meta'];
 			    $data = [
                 'controller'    	=> 'dias',
                 'title'     		=> $fecha,
-				'lista_viajes'		=> $lista_viajes,
-				'lista_gastos'		=> $lista_gastos,
+				'lista_transacciones'		=> $lista_transacciones,
 				'dia'				=> $dia,
 				'dia_id'			=> $id
 			];

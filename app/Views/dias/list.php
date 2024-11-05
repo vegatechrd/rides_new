@@ -75,14 +75,14 @@
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion002">
                             <ion-icon name="car-outline" role="img" class="md hydrated" aria-label="card outline"></ion-icon>
-                           Viajes
+                           Transacciones
                         </button>
                     </h2>
                     <div id="accordion002" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
                         <div class="accordion-body">
                                     
 
-       <?php if ($lista_viajes) : ?>
+       <?php if ($lista_transacciones) : ?>
        
                 <div class="table-responsive">
                     <table class="table">
@@ -90,6 +90,7 @@
                             <tr>
                               
                                 <th scope="col">No.</th>
+                                <th scope="col">Tipo</th>
                                 <th scope="col">Plataforma</th>
                                 <th scope="col">Kms. / Mins.</th>
                                 <th scope="col" class="text-end">Monto</th>
@@ -97,14 +98,15 @@
                         </thead>
                         <tbody>
 
-                        <?php foreach (array_reverse($lista_viajes) as $key => $value) { ?>
+                        <?php foreach (array_reverse($lista_transacciones) as $key => $value) { ?>
                             <tr>
                                
                                 <th scope="row"><?= $value->conteo_viajes ?></th>
+                                <th scope="row"><?= $value->conteo_viajes ?></th>
                                 <th scope="row"><div><?= $value->plataforma ?><i class="fa-solid fa-circle-check ms-2 fa-xl <?= $value->tipo_viaje ?> "></i></div>
-                                <div><?= date('h:i A', strtotime($value->fecha_hora))?></div></th>
+                                <div><?= date('h:i A', strtotime($value->hora_creacion))?></div></th>
                                 <th scope="row"><?= $value->total_kms.' | '.$value->total_mins ?></th>
-                                <th scope="row" class="text-end text-primary"><a href="<?= base_url('viajes/detail/'.$value->id) ?>">$ <?= number_format($value->total,2) ?></a></th>
+                                <th scope="row" class="text-end text-primary"><a href="<?= base_url('viajes_gastos/detail/'.$value->id) ?>">$ <?= number_format($value->total,2) ?></a></th>
                             </tr>
                             <?php } ?>
                         </tbody>
@@ -115,46 +117,7 @@
    <?php   endif ?>
                         </div>
                     </div>
-               
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion003">
-                            <ion-icon name="cash-outline" role="img" class="md hydrated text-danger" aria-label="cash outline"></ion-icon>
-                           Gastos
-                        </button>
-                    </h2>
-                    <div id="accordion003" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
-                        <div class="accordion-body">
-                   
-                        <?php if ($lista_gastos) : ?>
-
-                        <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">No.</th>
-                                <th scope="col">Categoría</th>
-                                <th scope="col" class="text-end">Monto</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                        <?php foreach (array_reverse($lista_gastos) as $key => $value) { ?>
-                            <tr>
-                                <th scope="row"><?= $value->conteo_gastos ?></th>
-                                <td><?= $value->categoria ?></td>
-                                <td class="text-end text-danger"><a href="<?= base_url('gastos/detail/'.$value->id) ?>">$ <?= number_format($value->total,2) ?></a></td>
-                            </tr>
-                            <?php } ?>
-                        </tbody>
-                    </table>
-                </div>
-                <?php   endif ?>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
+                              <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion001">
                             <ion-icon name="information-circle-outline" role="img" class="md hydrated" aria-label="wallet outline"></ion-icon>

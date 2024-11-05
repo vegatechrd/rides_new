@@ -36,17 +36,17 @@
                         <div>
                             <strong><?= $value->fecha_formateada ?></strong>
                             <strong><p>META: $ <?= number_format($value->meta,2)?></p>
-                            <p>TOTAL KMS: <?= '$value->total_kms_dia' ?></p>
+                            <p>TOTAL KMS: <?= $value->total_kms_dia ?></p>
                         </div>
                     </div>
                     <div class="right">
-                        <div class="price">Recaudado: <?= '$ '.$value->total_dia ?></div>
+                        <div class="price">Recaudado: <?= '$ '.$value->total_recaudado_dia ?></div>
                     </div>
                     <div class="right">
-                        <div class="price text-danger"> Gastos: <?= '$ .$value->total_gastos' ?></div>
+                        <div class="price text-danger"> Gastos: <?= '$ '.$value->total_gastos ?></div>
                     </div>
                     <div class="right">
-                        <div class="price text-primary"> Ganancia: <?= '$ .$value->balance_neto' ?></div>
+                        <div class="price text-primary"> Ganancias: <?= '$ '.$value->ganancias ?></div>
                     </div>
                    
                 </a>

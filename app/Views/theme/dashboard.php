@@ -12,7 +12,7 @@
                 <div class="balance">
                     <div class="left">
                         <span class="title" style="text-transform: uppercase;">Ganancias Semana</span>
-                        <h1 class="total"><?= '$ '. number_format($balance,2) ?></h1>
+                        <h1 class="total"><?= '$ '. number_format($ganancias_semana,2) ?></h1>
                     </div>
                 </div>
                 <!-- * Balance -->
@@ -112,7 +112,7 @@
                 <div class="col-12 mt-2">
                     <div class="stat-box">
                         <div class="title">GANANCIAS MES</div>
-                        <div class="value text-success"><?= '$ '.number_format($balance_mes,2) ?></div>
+                        <div class="value text-success"><?= '$ '.number_format($ganancias_mes,2) ?></div>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
             <div class="row mt-2">
                 <div class="col-6">
                     <div class="stat-box">
-                        <div class="title">INGRESOS GLOBALES</div>
+                        <div class="title">RECAUDADO GLOBAL</div>
                         <div class="value text-success"><?= '$ '.number_format($ingresos_globales,2) ?></div>
                     </div>
                 </div>
@@ -136,6 +136,12 @@
                     <div class="stat-box">
                         <div class="title">GASTOS GLOBALES</div>
                         <div class="value text-danger"><?= '$ '.number_format($gastos_globales,2) ?></div>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <div class="stat-box">
+                        <div class="title">GANANCIAS GLOBALES</div>
+                        <div class="value text-success"><?= '$ '.number_format($ganancias_globales,2) ?></div>
                     </div>
                 </div>
             </div>
