@@ -18,3 +18,12 @@ background: #d4edda !important;
 
 }
 
+.btn-circle {
+    border-radius: 50%; /* Hace el botón circular */
+    width: 60px; /* Ajusta el tamaño del botón */
+    height: 60px; /* Ajusta el tamaño del botón */
+    padding: 0; /* Elimina el padding interno */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

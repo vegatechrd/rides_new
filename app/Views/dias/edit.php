@@ -94,14 +94,27 @@ url: "<?= base_url('dias/update')?>",
 data: {array_dia: JSON.stringify(array_dia)},
 success: function(data) { 
 
-    Swal.fire({
-    icon: 'success',
-    title: 'Actualizado',
-    showCloseButton: true,
-    html: 'Su día fue actualizado satisfactoriamente!'
-  }).then(function() {
-    window.location.href = "<?= base_url('dias');?>";
+    if (data.success == true) {
+
+Swal.fire({
+icon: 'success',
+title: 'Guardado',
+showCloseButton: true,
+html: 'Su día fue actualizado satisfactoriamente!'
+}).then(function() {
+window.location.href = "<?= base_url('dias');?>";
 });
+
+}
+else {
+Swal.fire({
+icon: 'error',
+title: 'Error',
+showCloseButton: true,
+html: data.messages
+})
+
+}
 
 }
  }); 

@@ -31,9 +31,6 @@ class Dias extends BaseController
 		$datos[$key]->total_gastos = number_format($this->viajesgastosModel->getTotalesAll('total', null, null, 2,  $value->id),2);
 		$datos[$key]->ganancias = number_format($this->viajesgastosModel->GetGananciasAll($value->fecha, $value->fecha),2);
 		$datos[$key]->fecha_formateada = strftime('%a, %d %B %g', strtotime($value->fecha));
-		
-		// Calcular el total de kilòmetros del día
-
 		$datos[$key]->total_kms_dia = $this->viajesgastosModel->getTotalKms(null, null, $value->id);
 			
 	 }
@@ -65,17 +62,31 @@ class Dias extends BaseController
 	}
 
 
-	public function add()
+	public function store()
 	{
 
 
-		$viaje = json_decode($_POST['array_dia'], true);
+$viaje = json_decode($_POST['array_dia'], true);
 		
-        $response = array();
+$response = array();
 
 $fields['fecha'] = $viaje[0]['fecha'];
 $fields['descripcion'] = $viaje[0]['descripcion'];
 $fields['meta'] = $viaje[0]['meta'];
+
+
+ // Verificar si ya existe un registro con la misma fecha
+ $existingRecord = $this->diasModel->where('fecha', $fields['fecha'])->first();
+
+  // Formatear la fecha en formato d-m-Y
+  $fecha_formateada = date('d-m-Y', strtotime($fields['fecha']));
+
+ if ($existingRecord) {
+	 return $this->response->setJSON([
+		 'success' => false,
+		 'messages' => 'Ya existe un registro con la fecha ' . $fecha_formateada . '.'
+	 ]);
+ }
 
 
             if ($this->diasModel->insert($fields)) {
@@ -93,72 +104,64 @@ $fields['meta'] = $viaje[0]['meta'];
         return $this->response->setJSON($response);
 	}
 
-	public function list($id)
+	public function view($id)
 	{
 
-		$lista_transacciones = $this->viajesgastosModel->select('viajes_gastos.*, plataformas.descripcion as plataforma')
+		$datos_dia = $this->diasModel->where('id', $id)->first();
+		$lista_transacciones_dia = $this->viajesgastosModel->select('viajes_gastos.*, plataformas.descripcion as plataforma')
 		->join('plataformas', 'viajes_gastos.plataforma_id = plataformas.id', 'left')
 		->where('viajes_gastos.dia_id', $id)->findAll();
 			
 		$conteo_viajes = 1;
 		
-		foreach ($lista_transacciones as $key => $value) {
+		foreach ($lista_transacciones_dia as $key => $value) {
 	
-			$lista_transacciones[$key]->total_mins = date('H:i',strtotime($value->mins_recogida) + strtotime($value->mins_destino));
-			$lista_transacciones[$key]->total_kms =  $value->kms_recogida + $value->kms_destino;
-			$valor_x_km = $value->total / $lista_transacciones[$key]->total_kms;	
-						
-			if (floatval($valor_x_km) > 25.0) {
+			$lista_transacciones_dia[$key]->total_mins = date('H:i',strtotime($value->mins_recogida) + strtotime($value->mins_destino));
+			$lista_transacciones_dia[$key]->total_kms =  $value->kms_recogida + $value->kms_destino;
+			$valor_x_km = $value->total / $lista_transacciones_dia[$key]->total_kms;	
 			
-			$tipo_viaje =  'text-success';	
-
-			}
-			elseif (floatval($valor_x_km) > 20.0 AND floatval($lista_transacciones[$key]->total_kms) < 25.0) {
 			
-				$tipo_viaje = 'text-warning';		
-
-			}
-			else {
 			
-				$tipo_viaje =  'text-danger';	
+			if (floatval($valor_x_km) > 25.0) { $tipo_viaje =  'text-success'; }
+			elseif (floatval($valor_x_km) > 20.0 AND floatval($lista_transacciones_dia[$key]->total_kms) < 25.0) {
+			$tipo_viaje = 'text-warning';} else { $tipo_viaje =  'text-danger'; }
 
-			}
-			$lista_transacciones[$key]->tipo_viaje = $tipo_viaje;
-			$lista_transacciones[$key]->conteo_viajes = $conteo_viajes++;
+			if ($value->tipo_transaccion == 1) { $tipo_transaccion = '<span class="badge badge-success">VIAJE</span>'; } 
+			else { $tipo_transaccion = '<span class="badge badge-danger">GASTO</span>';}
+			
+
+			$lista_transacciones_dia[$key]->tipo_viaje = $tipo_viaje;
+			$lista_transacciones_dia[$key]->conteo_viajes = $conteo_viajes++;
+			$lista_transacciones_dia[$key]->tipo_transaccion_badge = $tipo_transaccion;
 			
 		}
 		
-		$dia = $this->diasModel->where('id', $id)->first();
-		$total_recaudado = $this->viajesgastosModel->select('SUM(total) as total')->where('dia_id', $id)->first();
-		$total_gastos = $this->viajesgastosModel->select('SUM(total) as total')->where('dia_id', $id)->first();
-		$dia->balance = $total_recaudado->total - $total_gastos->total;
-		$dia->pendiente = intval($dia->meta) - intval($total_recaudado->total);
-		$total_propinas = $this->viajesgastosModel->select('SUM(propina) as total')->where('dia_id', $id)->first();
-		$dia->total_propinas = $total_propinas->total;
-		$dia->recaudado = $total_recaudado->total;
-	 	$cant_viajes = $this->viajesgastosModel->select('COUNT(id) as cantidad')->where('dia_id', $id)->first();
-		$dia->cantidad_viajes = $cant_viajes->cantidad;
-		$total_tarjeta = $this->viajesgastosModel->select('SUM(tarjeta) as total')->where('dia_id', $id)->first();
-		$total_efectivo = $this->viajesgastosModel->select('SUM(efectivo) as total')->where('dia_id', $id)->first();
-		$dia->total_tarjeta = $total_tarjeta->total;
-		$dia->total_efectivo = $total_efectivo->total;
-		$total_kms = $this->viajesgastosModel->select('SUM(kms_recogida) + SUM(kms_destino) as total')->where('dia_id', $id)->first();
-		$dia->total_kms_dia = $total_kms->total > 0 ? $total_kms->total : 0;
-		$dia->precio_km_viaje = $total_kms->total > 0 ? $total_recaudado->total / $total_kms->total : 0;
+		
+		$datos_dia->total_recaudado = $this->viajesgastosModel->getTotalesAll('total', null, null, 1, $id);
+		$datos_dia->total_gastos = $this->viajesgastosModel->getTotalesAll('total', null, null, 2,  $id);
+		$datos_dia->ganancias = $datos_dia->total_recaudado - $datos_dia->total_gastos;
+		$datos_dia->pendiente_meta = intval($datos_dia->meta) - intval($datos_dia->total_recaudado);
 
-
+		$datos_dia->total_propinas = $this->viajesgastosModel->getTotalesAll('propina', null, null, 1, $id);
+		$cantidad = $this->viajesgastosModel->select('COUNT(id) as cantidad')->where('dia_id', $id)->first();
+		$datos_dia->cantidad_viajes = $cantidad->cantidad;
+		$datos_dia->total_kms_dia =  $this->viajesgastosModel->getTotalKms(null, null, $id); 
+		$datos_dia->total_tarjeta = $this->viajesgastosModel->getTotalesAll('tarjeta', null, null, 1, $id);
+		$datos_dia->total_efectivo = $this->viajesgastosModel->getTotalesAll('efectivo', null, null, 1, $id);
+		$datos_dia->precio_km_viaje = $datos_dia->total_kms_dia > 0 ? $datos_dia->total_recaudado / $datos_dia->total_kms_dia : 0;
+		
 		setlocale(LC_TIME, 'es_ES.utf8', 'es_ES', 'esp');
-		$fecha = strftime('%A %d %B', strtotime($dia->fecha));
+		$fecha = strftime('%A %d %B', strtotime($datos_dia->fecha));
 		
 			    $data = [
                 'controller'    	=> 'dias',
                 'title'     		=> $fecha,
-				'lista_transacciones'		=> $lista_transacciones,
-				'dia'				=> $dia,
+				'lista_transacciones_dia' => $lista_transacciones_dia,
+				'datos_dia'				=> $datos_dia,
 				'dia_id'			=> $id
 			];
 		
-		return view('dias/list', $data);
+		return view('dias/view', $data);
 			
 	}
 
@@ -194,6 +197,21 @@ $fields['descripcion'] = $viaje[0]['descripcion'];
 $fields['meta'] = $viaje[0]['meta'];
 $fields['id'] = $viaje[0]['dia_id'];
 
+
+// Verificar si ya existe un registro con la misma fecha, pero asegurarnos que no es el propio registro
+$existingRecord = $this->diasModel->where('fecha', $fields['fecha'])->where('id !=', $fields['id'])->first();
+
+
+if ($existingRecord) {
+
+	 // Formatear la fecha en formato d-m-Y
+	 $fecha_formateada = date('d-m-Y', strtotime($fields['fecha']));
+
+	return $this->response->setJSON([
+		'success' => false,
+		'messages' => 'Ya existe un registro con la fecha ' . $fecha_formateada . ' que no es el actual.'
+	]);
+}
 
 if ($this->diasModel->update($fields['id'], $fields)) {
 												

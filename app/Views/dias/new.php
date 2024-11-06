@@ -88,9 +88,11 @@ array_dia.push(dia_detalles);
 
 $.ajax({
 type: "POST",
-url: "<?= base_url('dias/add')?>",
+url: "<?= base_url('dias/store')?>",
 data: {array_dia: JSON.stringify(array_dia)},
-success: function(data) { 
+success: function(data) {
+    
+    if (data.success == true) {
 
     Swal.fire({
     icon: 'success',
@@ -100,6 +102,17 @@ success: function(data) {
   }).then(function() {
     window.location.href = "<?= base_url('dias');?>";
 });
+
+}
+else {
+    Swal.fire({
+    icon: 'error',
+    title: 'Error',
+    showCloseButton: true,
+    html: data.messages
+  })
+
+}
 
 }
  }); 

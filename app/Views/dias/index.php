@@ -30,7 +30,7 @@
                 
                 <div class="transactions mb-2">
                 <!-- item -->
-                <a href="<?= base_url('dias/list/'.$value->id) ?>" class="item <?= $value->cerrado == 1 ? 'bg-dias-cerrado' : ''?>">
+                <a href="<?= base_url('dias/view/'.$value->id) ?>" class="item <?= $value->cerrado == 1 ? 'bg-dias-cerrado' : ''?>">
                     <div class="detail">
                         
                         <div>

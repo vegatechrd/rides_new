@@ -6,8 +6,6 @@ use App\Controllers\BaseController;
 use App\Models\DiasModel;
 use App\Models\ViajesGastosModel;
 use App\Models\PlataformasModel;
-use CodeIgniter\I18n\Time;
-
 
 class Viajesgastos extends BaseController
 {
@@ -23,64 +21,64 @@ class Viajesgastos extends BaseController
 	}
 
 
-	public function new($id)
-	{
+	// public function new($id)
+	// {
 
-	 		    $data = [
-                'controller'    	=> 'viajes',
-                'title'     		=> 'Nuevo Viaje',
-				'plataformas'		=> $this->plataformasModel->findAll(),
-				'dia_id'			=> $id		
-			];
+	//  		    $data = [
+    //             'controller'    	=> 'viajes',
+    //             'title'     		=> 'Nuevo Viaje',
+	// 			'plataformas'		=> $this->plataformasModel->findAll(),
+	// 			'dia_id'			=> $id		
+	// 		];
 		
-		return view('viajes/new', $data);
+	// 	return view('viajes/new', $data);
 			
-	}
+	// }
 
-	function convertirMinutosATime($minutos) {
-		$horas = floor($minutos / 60);
-		$minutosRestantes = $minutos % 60;
+	// function convertirMinutosATime($minutos) {
+	// 	$horas = floor($minutos / 60);
+	// 	$minutosRestantes = $minutos % 60;
 		
-		return sprintf('%02d:%02d:00', $horas, $minutosRestantes);
-	}
+	// 	return sprintf('%02d:%02d:00', $horas, $minutosRestantes);
+	// }
 
-	public function add()
-	{
+// 	public function add()
+// 	{
 
-		$fecha = $myTime = new Time('now', 'America/Santo_Domingo', 'es_ES');
+// 		$fecha = $myTime = new Time('now', 'America/Santo_Domingo', 'es_ES');
 
-		$viaje = json_decode($_POST['array_viaje'], true);
+// 		$viaje = json_decode($_POST['array_viaje'], true);
 		
-        $response = array();
+//         $response = array();
 
-$fields['kms_recogida'] = $viaje[0]['kms_recogida'];
-$fields['mins_recogida'] = $this->convertirMinutosATime($viaje[0]['mins_recogida']);
-$fields['kms_destino'] = $viaje[0]['kms_destino'];
-$fields['mins_destino'] = $this->convertirMinutosATime($viaje[0]['mins_destino']);
-$fields['efectivo'] = $viaje[0]['efectivo'];
-$fields['tarjeta'] = $viaje[0]['tarjeta'];
-$fields['total'] = $viaje[0]['efectivo'] +  $viaje[0]['tarjeta'] ;
-$fields['propina'] = $viaje[0]['propina'];
-$fields['plataforma_id'] = $viaje[0]['id_plataforma'];
-$fields['dia_id'] = $viaje[0]['dia_id'];
-$fields['fecha_hora'] = $fecha;
+// $fields['kms_recogida'] = $viaje[0]['kms_recogida'];
+// $fields['mins_recogida'] = $this->convertirMinutosATime($viaje[0]['mins_recogida']);
+// $fields['kms_destino'] = $viaje[0]['kms_destino'];
+// $fields['mins_destino'] = $this->convertirMinutosATime($viaje[0]['mins_destino']);
+// $fields['efectivo'] = $viaje[0]['efectivo'];
+// $fields['tarjeta'] = $viaje[0]['tarjeta'];
+// $fields['total'] = $viaje[0]['efectivo'] +  $viaje[0]['tarjeta'] ;
+// $fields['propina'] = $viaje[0]['propina'];
+// $fields['plataforma_id'] = $viaje[0]['id_plataforma'];
+// $fields['dia_id'] = $viaje[0]['dia_id'];
+// $fields['fecha_hora'] = $fecha;
 
 
 
-            if ($this->viajesModel->insert($fields)) {
+//             if ($this->viajesModel->insert($fields)) {
 												
-                $response['success'] = true;
+//                 $response['success'] = true;
                				
-            } else {
+//             } else {
 				
-                $response['success'] = false;
-                $response['messages'] = lang("App.insert-error") ;
+//                 $response['success'] = false;
+//                 $response['messages'] = lang("App.insert-error") ;
 				
-            }
+//             }
        
 		
-        return $this->response->setJSON($response);
-	}
+//         return $this->response->setJSON($response);
+// 	}
 
 
 	// function convertirTiempoAMinutos($tiempo) {
@@ -93,132 +91,132 @@ $fields['fecha_hora'] = $fecha;
 	// 	return round($totalMinutos);
 	// }
 
-	public function edit($id)
-	{
+	// public function edit($id)
+	// {
    
-	$datos = $this->viajesModel->where('id', $id)->first();
+	// $datos = $this->viajesModel->where('id', $id)->first();
 
-	$datos->mins_recogida = $this->horaAMinutos($datos->mins_recogida);
-	$datos->mins_destino = $this->horaAMinutos($datos->mins_destino);
+	// $datos->mins_recogida = $this->horaAMinutos($datos->mins_recogida);
+	// $datos->mins_destino = $this->horaAMinutos($datos->mins_destino);
 
-	$data = [
+	// $data = [
 	
-	'controller' => 'viajes',
-	'title'		 => 'Editar Viaje',
-	'plataformas' => $this->plataformasModel->findAll(),
-	'datos'		 => $datos];
+	// 'controller' => 'viajes',
+	// 'title'		 => 'Editar Viaje',
+	// 'plataformas' => $this->plataformasModel->findAll(),
+	// 'datos'		 => $datos];
 
-	return view('viajes/edit', $data);	
-	}
+	// return view('viajes/edit', $data);	
+	// }
 	
-	public function remove()
-	{
-		$response = array();
+	// public function remove()
+	// {
+	// 	$response = array();
 		
-		$id = $this->request->getPost('id');
+	// 	$id = $this->request->getPost('id');
 		
 	
-			if ($this->viajesModel->where('id', $id)->delete()) {
+	// 		if ($this->viajesModel->where('id', $id)->delete()) {
 								
-				$response['success'] = true;
+	// 			$response['success'] = true;
 								
-			} else {
+	// 		} else {
 				
-				$response['success'] = false;
+	// 			$response['success'] = false;
 								
-			}
+	// 		}
 			
 	
-        return $this->response->setJSON($response);		
-	}
+    //     return $this->response->setJSON($response);		
+	// }
 	
-	public function update()
-	{
+// 	public function update()
+// 	{
 
 
-		$viaje = json_decode($_POST['array_viaje'], true);
+// 		$viaje = json_decode($_POST['array_viaje'], true);
 		
-        $response = array();
+//         $response = array();
 
-$fields['fecha'] = $viaje[0]['fecha'];
-$fields['kms_recogida'] = $viaje[0]['kms_recogida'];
-$fields['mins_recogida'] = $this->convertirMinutosATime($viaje[0]['mins_recogida']);
-$fields['kms_destino'] = $viaje[0]['kms_destino'];
-$fields['mins_destino'] = $this->convertirMinutosATime($viaje[0]['mins_destino']);
-$fields['efectivo'] = $viaje[0]['efectivo'];
-$fields['tarjeta'] = $viaje[0]['tarjeta'];
-$fields['subtotal'] = $viaje[0]['efectivo'] +  $viaje[0]['tarjeta'] ;
-$fields['propina'] = $viaje[0]['propina'];
-$fields['total'] = $fields['subtotal'] + $viaje[0]['propina'];
-$fields['plataforma_id'] = $viaje[0]['id_plataforma'];
-$fields['dia_id'] = $viaje[0]['dia_id'];
-$fields['id'] = $viaje[0]['id'];
+// $fields['fecha'] = $viaje[0]['fecha'];
+// $fields['kms_recogida'] = $viaje[0]['kms_recogida'];
+// $fields['mins_recogida'] = $this->convertirMinutosATime($viaje[0]['mins_recogida']);
+// $fields['kms_destino'] = $viaje[0]['kms_destino'];
+// $fields['mins_destino'] = $this->convertirMinutosATime($viaje[0]['mins_destino']);
+// $fields['efectivo'] = $viaje[0]['efectivo'];
+// $fields['tarjeta'] = $viaje[0]['tarjeta'];
+// $fields['subtotal'] = $viaje[0]['efectivo'] +  $viaje[0]['tarjeta'] ;
+// $fields['propina'] = $viaje[0]['propina'];
+// $fields['total'] = $fields['subtotal'] + $viaje[0]['propina'];
+// $fields['plataforma_id'] = $viaje[0]['id_plataforma'];
+// $fields['dia_id'] = $viaje[0]['dia_id'];
+// $fields['id'] = $viaje[0]['id'];
 
 
-if ($this->viajesModel->update($fields['id'], $fields)) {
+// if ($this->viajesModel->update($fields['id'], $fields)) {
 												
-                $response['success'] = true;
+//                 $response['success'] = true;
               				
-            } else {
+//             } else {
 				
-                $response['success'] = false;
-                $response['messages'] = lang("App.insert-error") ;
+//                 $response['success'] = false;
+//                 $response['messages'] = lang("App.insert-error") ;
 				
-            }
+//             }
        
 		
-        return $this->response->setJSON($response);
-	}
+//         return $this->response->setJSON($response);
+// 	}
 
-	public function horaAMinutos($hora) {
-		list($h, $m) = explode(':', $hora);
-		return ($h * 60) + $m; 
-	}
+// 	public function horaAMinutos($hora) {
+// 		list($h, $m) = explode(':', $hora);
+// 		return ($h * 60) + $m; 
+// 	}
 
-	// Convertir el resultado a horas y minutos
-	public function minutosAHora($minutos) {
-    $h = floor($minutos / 60);
-    $m = $minutos % 60;
-    return sprintf('%02d:%02d', $h, $m);
-}
-
-
-	public function detail($id)
-	{
-
-		$response = (object) array();
+// 	// Convertir el resultado a horas y minutos
+// 	public function minutosAHora($minutos) {
+//     $h = floor($minutos / 60);
+//     $m = $minutos % 60;
+//     return sprintf('%02d:%02d', $h, $m);
+// }
 
 
-		$viaje = $this->viajesModel->where('id', $id)->first();
-		$response->total_kms = $viaje->kms_recogida + $viaje->kms_destino;
-		$response->total_mins =  date('H:i',strtotime($viaje->mins_recogida) + strtotime($viaje->mins_destino));	
-		$response->valor_km = $viaje->total / $response->total_kms;		
-		$response->valor_hr = $viaje->total / ($this->horaAMinutos($response->total_mins) / 60);		
-		$response->valor_min = $viaje->total / $this->horaAMinutos($response->total_mins);		
+	// public function detail($id)
+	// {
 
-			    $data = [
-                'controller'    	=> 'viajes',
-                'title'     		=> 'Detalles Del Viaje',
-				'datos'				=> $response,
-				'viaje'				=> $viaje				
-			];
+	// 	$response = (object) array();
+
+
+	// 	$viaje = $this->viajesModel->where('id', $id)->first();
+	// 	$response->total_kms = $viaje->kms_recogida + $viaje->kms_destino;
+	// 	$response->total_mins =  date('H:i',strtotime($viaje->mins_recogida) + strtotime($viaje->mins_destino));	
+	// 	$response->valor_km = $viaje->total / $response->total_kms;		
+	// 	$response->valor_hr = $viaje->total / ($this->horaAMinutos($response->total_mins) / 60);		
+	// 	$response->valor_min = $viaje->total / $this->horaAMinutos($response->total_mins);		
+
+	// 		    $data = [
+    //             'controller'    	=> 'viajes',
+    //             'title'     		=> 'Detalles Del Viaje',
+	// 			'datos'				=> $response,
+	// 			'viaje'				=> $viaje				
+	// 		];
 		
-		return view('viajes/detail', $data);
+	// 	return view('viajes/detail', $data);
 			
-	}
+	// }
 
-	public function simular()
-	{
+	// public function simular()
+	// {
 
-	    $data = [
-                'controller'    	=> 'viajes',
-                'title'     		=> 'Simular Viaje',
-				'plataformas'		=> $this->plataformasModel->findAll()	
-			];
+	//     $data = [
+    //             'controller'    	=> 'viajes',
+    //             'title'     		=> 'Simular Viaje',
+	// 			'plataformas'		=> $this->plataformasModel->findAll()	
+	// 		];
 		
-		return view('viajes/simular', $data);
+	// 	return view('viajes/simular', $data);
 			
-	}
+	// }
 
 
 		

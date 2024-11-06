@@ -10,7 +10,7 @@
             </a>
         </div>
         <div class="pageTitle"><?= $title ?></div>
-        <?php if ($dia->cerrado == 0) : ?>
+        <?php if ($datos_dia->cerrado == 0) : ?>
        <div class="right">
        <a href="#" class="button btn-text-primary">
         <ion-icon name="ellipsis-horizontal-circle-outline" data-bs-toggle="modal" data-bs-target="#PanelRight" size="large" role="img" 
@@ -23,28 +23,20 @@
     <!-- * App Header -->
  <!-- App Capsule -->
  <div id="appCapsule">
-<?php if ($dia->cerrado == 0) : ?>
-
- <div class="section mt-3">
-<div class="row">
-<a href="<?= base_url('viajes/new/').$dia_id?>" class="btn btn-block btn-primary me-2"><ion-icon name="add-outline"></ion-icon>Nuevo Viaje</a>
-
-</div>
-   </div>
-   <?php endif; ?>
    <div class="section mt-2">
      <div class="row">
     
         <div class="col-6">
                     <div class="stat-box">
                         <div class="title">META</div>
-                        <div class="value"><?= '$ '.number_format($dia->meta,2) ?></div>
+                        <div class="value"><?= '$ '.number_format($datos_dia->meta,2) ?></div>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="stat-box">
                         <div class="title">PENDIENTE META</div>
-                        <div class="value"><?= '$ '.number_format($dia->pendiente,2)?></div>
+                        <div class="value <?= $datos_dia->pendiente_meta > 0 ? 'text-danger' : 'text-success'?>">
+                            <?= '$ '.number_format($datos_dia->pendiente_meta,2)?></div>
                     </div>
                 </div>
                
@@ -54,13 +46,13 @@
                 <div class="col-6">
                     <div class="stat-box">
                         <div class="title">TOTAL RECAUDADO</div>
-                        <div class="value"><?= '$ '.number_format($dia->recaudado,2) ?></div>
+                        <div class="value"><?= '$ '.number_format($datos_dia->total_recaudado,2) ?></div>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="stat-box">
-                        <div class="title">GANANCIA</div>
-                        <div class="value <?= $dia->balance < 0 ? 'text-danger' : 'text-success'?>"><?= '$ '.number_format($dia->balance,2) ?></div>
+                        <div class="title">GANANCIAS</div>
+                        <div class="value <?= $datos_dia->ganancias < 0 ? 'text-danger' : 'text-success'?>"><?= '$ '.number_format($datos_dia->ganancias,2) ?></div>
                     </div>
                 </div>
             </div>
@@ -82,7 +74,7 @@
                         <div class="accordion-body">
                                     
 
-       <?php if ($lista_transacciones) : ?>
+       <?php if ($lista_transacciones_dia) : ?>
        
                 <div class="table-responsive">
                     <table class="table">
@@ -98,14 +90,19 @@
                         </thead>
                         <tbody>
 
-                        <?php foreach (array_reverse($lista_transacciones) as $key => $value) { ?>
+                        <?php foreach (array_reverse($lista_transacciones_dia) as $key => $value) { ?>
                             <tr>
                                
                                 <th scope="row"><?= $value->conteo_viajes ?></th>
-                                <th scope="row"><?= $value->conteo_viajes ?></th>
-                                <th scope="row"><div><?= $value->plataforma ?><i class="fa-solid fa-circle-check ms-2 fa-xl <?= $value->tipo_viaje ?> "></i></div>
+                                <th scope="row"><?= $value->tipo_transaccion_badge ?></th>
+                                <th scope="row">
+                                <?php if ($value->tipo_transaccion == 1) { ?>
+                                <div><?= $value->plataforma ?><i class="fa-solid fa-circle-check ms-2 fa-xl <?= $value->tipo_viaje ?> "></i></div>
+                                <?php } else { ?> <div>N/A</div> <?php } ?>    
                                 <div><?= date('h:i A', strtotime($value->hora_creacion))?></div></th>
-                                <th scope="row"><?= $value->total_kms.' | '.$value->total_mins ?></th>
+                                <th scope="row">
+                                <?php if ($value->tipo_transaccion == 1) { echo $value->total_kms.' | '.$value->total_mins; } else {
+                                  echo  'N/A'; } ?></th>
                                 <th scope="row" class="text-end text-primary"><a href="<?= base_url('viajes_gastos/detail/'.$value->id) ?>">$ <?= number_format($value->total,2) ?></a></th>
                             </tr>
                             <?php } ?>
@@ -133,31 +130,31 @@
                         <tbody>
                             <tr>
                                 <th scope="row">TOTAL PROPINAS</th>
-                                <td><?= number_format($dia->total_propinas,2) ?></td>
+                                <td><?= '$ '.number_format($datos_dia->total_propinas,2) ?></td>
                                 </tr>
                                 <tr>
                                 <th scope="row">CANTIDAD VIAJES</th>
-                                <td><?= $dia->cantidad_viajes ?></td>
+                                <td><?= $datos_dia->cantidad_viajes ?></td>
                               
                             </tr>
                             <tr>
                                 <th scope="row">TOTAL KILÓMETROS</th>
-                                <td><?= $dia->total_kms_dia ?></td>
+                                <td><?= $datos_dia->total_kms_dia ?></td>
                               
                             </tr>
                             <tr>
                                 <th scope="row">TOTAL EFECTIVO</th>
-                                <td><?= number_format($dia->total_efectivo,2) ?></td>
+                                <td><?= '$ '.number_format($datos_dia->total_efectivo,2) ?></td>
                               
                             </tr>
                             <tr>
                                 <th scope="row">TOTAL TARJETA</th>
-                                <td><?= number_format($dia->total_tarjeta,2) ?></td>
+                                <td><?= '$ '.number_format($datos_dia->total_tarjeta,2) ?></td>
                               
                             </tr>
                             <tr>
                                 <th scope="row">PRECIO KM. VIAJE</th>
-                                <td><?= $dia->precio_km_viaje ?></td>
+                                <td><?= '$ '.$datos_dia->precio_km_viaje ?></td>
                               
                             </tr>
                            
@@ -218,8 +215,10 @@
                 </div>
             </div>
         </div>
-
-   
+        <?php if ($datos_dia->cerrado == 0) : ?>
+        <a type="button" href="<?= base_url('viajes/new/').$dia_id?>" class="btn btn-primary btn-circle btn-lg position-fixed bottom-0 end-0 m-3 ">
+    <i class="fas fa-plus"></i></a>
+    <?php endif; ?>
     <?= $this->endSection() ?>
 
     <?= $this->section("pageScript") ?>
