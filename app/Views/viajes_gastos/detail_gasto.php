@@ -5,14 +5,14 @@
  <!-- App Header -->
  <div class="appHeader">
         <div class="left">
-            <a href="<?= base_url('dias/list/'.$viaje->dia_id) ?>" class="headerButton goBack">
+            <a href="<?= base_url('dias/view/'.$viaje->dia_id) ?>" class="headerButton goBack">
                 <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
         </div>
 
         <div class="right">
        
-        <a class="button btn-text-primary" href="<?= base_url('viajes/edit/').$viaje->id ?>">
+        <a class="button btn-text-primary" href="<?= base_url('viajesgastos/edit/').$viaje->id ?>">
         <ion-icon name="create-outline" role="img" class="md icon-large hydrated" aria-label="edit outline"></ion-icon></a>
 
         </div>
@@ -26,47 +26,29 @@
 
 <div class="section mt-2 mb-2 bg-white">
 
-
-
-    <ul class="listview flush transparent simple-listview no-space mt-3">
+<ul class="listview flush transparent simple-listview no-space mt-3">
     
     <li>
-            <strong>Precio Viaje</strong>
+            <strong>Categoría Gasto</strong>
+            <h3 class="m-0"><?= $viaje->categoria ?></h3>
+        </li>
+        <li>
+            <strong>Total</strong>
             <h3 class="m-0"><?= 'RD$ '.number_format($viaje->total,2) ?></h3>
         </li>
         <li>
-            <strong>Propina</strong>
-            <h3 class="m-0"><?= 'RD$ '.number_format($viaje->propina,2) ?></h3>
+            <strong>Cantidad KM.</strong>
+            <h3 class="m-0"><?= $viaje->kms_recorridos ?></h3>
         </li>
         <li>
-            <strong>Precio Total</strong>
-            <h3 class="m-0"><?= 'RD$ '.number_format($viaje->total,2) ?></h3>
+            <strong>Precio Galón</strong>
+            <h3 class="m-0"><?= number_format($viaje->precio_galon,2) ?></h3>
         </li>
         <li>
-            <strong>Total Kilómetros</strong>
-            <h3 class="m-0"><?= number_format($datos->total_kms,1) ?></h3>
+            <strong>Comentario</strong>
+            <h3 class="m-0"><?= $viaje->comentario ?></h3>
         </li>
-        <li>
-            <strong>Total Minutos</strong>
-            <h3 class="m-0"><?= $datos->total_mins ?></h3>
-        </li>
-        <li>
-            <strong>Valor / KM.</strong>
-            <h3 class="m-0"><?= 'RD$ '.number_format($datos->valor_km,2) ?></h3>
-        </li>
-        <li>
-            <strong>Valor / Hora</strong>
-            <h3 class="m-0"><?= 'RD$ '.number_format($datos->valor_hr,2) ?></h3>
-        </li>
-        <li>
-            <strong>Valor / Minuto</strong>
-            <h3 class="m-0"><?= 'RD$ '.number_format($datos->valor_min,2) ?></h3>
-        </li>
-        <li>
-            <strong>Fecha / Hora</strong>
-            <h3 class="m-0"><?= date('d-m-Y h:i A', strtotime($viaje->fecha_hora)) ?></h3>
-        </li>
-        
+
     </ul>
 
 

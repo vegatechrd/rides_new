@@ -21,19 +21,19 @@ class Viajesgastos extends BaseController
 	}
 
 
-	// public function new($id)
-	// {
+	public function new($id)
+	{
 
-	//  		    $data = [
-    //             'controller'    	=> 'viajes',
-    //             'title'     		=> 'Nuevo Viaje',
-	// 			'plataformas'		=> $this->plataformasModel->findAll(),
-	// 			'dia_id'			=> $id		
-	// 		];
+	 		    $data = [
+                'controller'    	=> 'viajes',
+                'title'     		=> 'Nuevo Viaje',
+				'plataformas'		=> $this->plataformasModel->findAll(),
+				'dia_id'			=> $id		
+			];
 		
-	// 	return view('viajes/new', $data);
+		return view('viajes_gastos/new', $data);
 			
-	// }
+	}
 
 	// function convertirMinutosATime($minutos) {
 	// 	$horas = floor($minutos / 60);
@@ -168,10 +168,10 @@ class Viajesgastos extends BaseController
 //         return $this->response->setJSON($response);
 // 	}
 
-// 	public function horaAMinutos($hora) {
-// 		list($h, $m) = explode(':', $hora);
-// 		return ($h * 60) + $m; 
-// 	}
+	public function horaAMinutos($hora) {
+		list($h, $m) = explode(':', $hora);
+		return ($h * 60) + $m; 
+	}
 
 // 	// Convertir el resultado a horas y minutos
 // 	public function minutosAHora($minutos) {
@@ -181,29 +181,57 @@ class Viajesgastos extends BaseController
 // }
 
 
-	// public function detail($id)
-	// {
+	public function detail($id)
+	{
 
-	// 	$response = (object) array();
+		$viaje = $this->viajesgastosModel->select('viajes_gastos.*, plataformas.descripcion as plataforma, 
+		categorias.subcategoria, categorias.categoria')
+		->join('plataformas', 'viajes_gastos.plataforma_id = plataformas.id', 'left')
+		->join('categorias', 'viajes_gastos.categoria_id = categorias.id', 'left')
+		->where('viajes_gastos.id', $id)->first();
 
-
-	// 	$viaje = $this->viajesModel->where('id', $id)->first();
-	// 	$response->total_kms = $viaje->kms_recogida + $viaje->kms_destino;
-	// 	$response->total_mins =  date('H:i',strtotime($viaje->mins_recogida) + strtotime($viaje->mins_destino));	
-	// 	$response->valor_km = $viaje->total / $response->total_kms;		
-	// 	$response->valor_hr = $viaje->total / ($this->horaAMinutos($response->total_mins) / 60);		
-	// 	$response->valor_min = $viaje->total / $this->horaAMinutos($response->total_mins);		
-
-	// 		    $data = [
-    //             'controller'    	=> 'viajes',
-    //             'title'     		=> 'Detalles Del Viaje',
-	// 			'datos'				=> $response,
-	// 			'viaje'				=> $viaje				
-	// 		];
+		$response_viaje = (object) array();
+		$response_gasto = (object) array();
 		
-	// 	return view('viajes/detail', $data);
+		
+		if ($viaje->tipo_transaccion == 1) {
+
+			$response_viaje->total_kms = $viaje->kms_recogida + $viaje->kms_destino;
+			$response_viaje->total_mins =  date('H:i',strtotime($viaje->mins_recogida) + strtotime($viaje->mins_destino));	
+			$response_viaje->valor_km = $viaje->total / $response_viaje->total_kms;		
+			$response_viaje->valor_hr = $viaje->total / ($this->horaAMinutos($response_viaje->total_mins) / 60);		
+			$response_viaje->valor_min = $viaje->total / $this->horaAMinutos($response_viaje->total_mins);	
+
+			$data = [
+                'controller'    	=> 'viajesgastos',
+                'title'     		=> 'Detalles Del Viaje',
+				'datos'				=> $response_viaje,
+				'viaje'				=> $viaje				
+			];
+		
+		return view('viajes_gastos/detail_viaje', $data);		
+		
+		} else {
+
+		
+			// $response_gasto->total_kms = $viaje->kms_recogida + $viaje->kms_destino;
+			// $response_gasto->total_mins =  date('H:i',strtotime($viaje->mins_recogida) + strtotime($viaje->mins_destino));	
+			// $response_gasto->valor_km = $viaje->total / $response_gasto->total_kms;		
+			// $response_gasto->valor_hr = $viaje->total / ($this->horaAMinutos($response_gasto->total_mins) / 60);		
+			// $response_gasto->valor_min = $viaje->total / $this->horaAMinutos($response_gasto->total_mins);	
 			
-	// }
+			$data = [
+                'controller'    	=> 'viajesgastos',
+                'title'     		=> 'Detalles Del Gasto',
+			//	'datos'				=> $response_gasto,
+				'viaje'				=> $viaje				
+			];
+		
+		return view('viajes_gastos/detail_gasto', $data);		
+
+		}
+	
+	}
 
 	// public function simular()
 	// {

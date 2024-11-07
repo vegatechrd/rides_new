@@ -82,7 +82,6 @@
                             <tr>
                               
                                 <th scope="col">No.</th>
-                                <th scope="col">Tipo</th>
                                 <th scope="col">Plataforma</th>
                                 <th scope="col">Kms. / Mins.</th>
                                 <th scope="col" class="text-end">Monto</th>
@@ -93,17 +92,14 @@
                         <?php foreach (array_reverse($lista_transacciones_dia) as $key => $value) { ?>
                             <tr>
                                
-                                <th scope="row"><?= $value->conteo_viajes ?></th>
-                                <th scope="row"><?= $value->tipo_transaccion_badge ?></th>
+                                <th scope="row"><a href="<?= base_url('viajesgastos/detail/'.$value->id) ?>"><?= $value->conteo_viajes ?></a></th>
                                 <th scope="row">
-                                <?php if ($value->tipo_transaccion == 1) { ?>
-                                <div><?= $value->plataforma ?><i class="fa-solid fa-circle-check ms-2 fa-xl <?= $value->tipo_viaje ?> "></i></div>
-                                <?php } else { ?> <div>N/A</div> <?php } ?>    
+                                <div><?= $value->tipo_transaccion_badge ?></div>
                                 <div><?= date('h:i A', strtotime($value->hora_creacion))?></div></th>
                                 <th scope="row">
-                                <?php if ($value->tipo_transaccion == 1) { echo $value->total_kms.' | '.$value->total_mins; } else {
-                                  echo  'N/A'; } ?></th>
-                                <th scope="row" class="text-end text-primary"><a href="<?= base_url('viajes_gastos/detail/'.$value->id) ?>">$ <?= number_format($value->total,2) ?></a></th>
+                                <?php if ($value->tipo_transaccion == 1) { echo '<a href="'.base_url('viajesgastos/detail/'.$value->id).'">'.$value->total_kms.' | '.$value->total_mins.'</a>'; } else {
+                                  echo '<a href="'.base_url('viajesgastos/detail/'.$value->id).'">N/A</a>'; } ?></th>
+                                <th scope="row" class="text-end text-primary"><a href="<?= base_url('viajesgastos/detail/'.$value->id) ?>">$ <?= number_format($value->total,2) ?></a></th>
                             </tr>
                             <?php } ?>
                         </tbody>
@@ -215,8 +211,9 @@
                 </div>
             </div>
         </div>
+        
         <?php if ($datos_dia->cerrado == 0) : ?>
-        <a type="button" href="<?= base_url('viajes/new/').$dia_id?>" class="btn btn-primary btn-circle btn-lg position-fixed bottom-0 end-0 m-3 ">
+        <a type="button" href="<?= base_url('viajesgastos/new/').$dia_id?>" class="btn btn-primary btn-circle btn-lg position-fixed bottom-0 end-0 m-3 ">
     <i class="fas fa-plus"></i></a>
     <?php endif; ?>
     <?= $this->endSection() ?>

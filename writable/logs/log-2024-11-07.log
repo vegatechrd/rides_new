@@ -1,0 +1,1667 @@
+WARNING - 2024-11-07 14:11:53 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:11:54 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:11:55 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:11:55 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:14:51 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:14:52 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:14:53 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:14:54 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:15:13 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:15:13 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:17:57 --> ErrorException: Undefined property: stdClass::$categoria
+[Method: GET, Route: dias/view/1]
+in APPPATH\Controllers\Dias.php on line 130.
+ 1 APPPATH\Controllers\Dias.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$categoria', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Dias.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:17:58 --> ErrorException: Undefined property: stdClass::$categoria
+[Method: GET, Route: dias/view/1]
+in APPPATH\Controllers\Dias.php on line 130.
+ 1 APPPATH\Controllers\Dias.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$categoria', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Dias.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:19:22 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:19:22 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 141.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:19:23 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 141.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:19:23 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:19:23 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 141.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:33:02 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 155.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:33:02 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 141.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:57:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:57:38 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:57:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:57:43 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-07 14:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-07 14:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-07 14:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-07 14:58:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:58:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:58:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:58:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:58:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:58:29 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:58:29 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 14:59:37 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 14:59:38 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:15:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:15:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:15:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:15:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:15:34 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:15:38 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 15:15:38 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:17:16 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 15:17:16 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:17:17 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 15:17:17 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:17:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 15:17:43 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 15:17:44 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 15:17:44 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 17:19:58 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:19:58 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 17:20:08 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:20:08 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 17:21:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:21:35 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:21:37 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 17:21:37 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:21:37 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:21:41 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Controllers\Viajesgastos.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 17:21:47 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Controllers\Viajesgastos.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:00:01 --> ErrorException: Undefined variable $response
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Controllers\Viajesgastos.php on line 216.
+ 1 APPPATH\Controllers\Viajesgastos.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:03:14 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Controllers\Viajesgastos.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:05:29 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Controllers\Viajesgastos.php on line 217.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:17:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "viajes_gastos/detail_gasto.php"
+[Method: GET, Route: viajesgastos/detail/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viajes_gastos/detail_gasto.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 3 APPPATH\Controllers\Viajesgastos.php(227): view('viajes_gastos/detail_gasto', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:18:27 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Views\viajes_gastos\detail_gasto.php on line 47.
+ 1 APPPATH\Views\viajes_gastos\detail_gasto.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(227): view('viajes_gastos/detail_gasto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:19:28 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Views\viajes_gastos\detail_gasto.php on line 47.
+ 1 APPPATH\Views\viajes_gastos\detail_gasto.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(227): view('viajes_gastos/detail_gasto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:35:47 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Views\viajes_gastos\detail_gasto.php on line 33.
+ 1 APPPATH\Views\viajes_gastos\detail_gasto.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(230): view('viajes_gastos/detail_gasto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:36:51 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Views\viajes_gastos\detail_gasto.php on line 37.
+ 1 APPPATH\Views\viajes_gastos\detail_gasto.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(230): view('viajes_gastos/detail_gasto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:37:03 --> ErrorException: Undefined property: stdClass::$cantidad_km
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Views\viajes_gastos\detail_gasto.php on line 41.
+ 1 APPPATH\Views\viajes_gastos\detail_gasto.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$cantidad_km', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(230): view('viajes_gastos/detail_gasto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:37:27 --> ErrorException: Undefined property: stdClass::$comentario
+[Method: GET, Route: viajesgastos/detail/2]
+in APPPATH\Views\viajes_gastos\detail_gasto.php on line 49.
+ 1 APPPATH\Views\viajes_gastos\detail_gasto.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$comentario', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_gasto.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_gasto', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(230): view('viajes_gastos/detail_gasto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:38:59 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:39:00 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/__manifest.json]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('__manifest.json')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:39:24 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:39:24 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/__manifest.json]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('__manifest.json')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:48:40 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:48:40 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/__manifest.json]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('__manifest.json')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:48:52 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:48:52 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:48:52 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:19 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:49:19 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:49:19 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:49:25 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:49:25 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:49:25 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:49:29 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:49:29 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/__manifest.json]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('__manifest.json')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:37 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:37 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/__manifest.json]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('__manifest.json')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:56:41 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:56:41 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:41 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:41 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:47 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:47 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/__manifest.json]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('__manifest.json')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:56:51 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 18:56:51 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:52 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 18:56:52 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:35 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:00:49 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:00:49 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:00:49 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:04:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:05:01 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:05:02 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:05:02 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:05:18 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:05:55 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:05:55 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:05:55 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:05:55 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:09:28 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:09:28 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:09:28 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:10:13 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:13 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:10:14 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:14 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:10:15 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:15 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:16 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:10:17 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:17 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:17 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/__manifest.json]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('__manifest.json')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:10:49 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:10:49 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:13:39 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:13:39 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:13:40 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:13:40 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:13:42 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:13:42 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:13:42 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:13:43 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:13:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:13:43 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:13:43 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:13:43 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:16:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:16:45 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:16:45 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:16:46 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:16:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('5')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:16:57 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:21 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:24 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:17:24 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:17:27 --> ErrorException: Undefined property: stdClass::$fecha_hora
+[Method: GET, Route: viajesgastos/detail/1]
+in APPPATH\Views\viajes_gastos\detail_viaje.php on line 67.
+ 1 APPPATH\Views\viajes_gastos\detail_viaje.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fecha_hora', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_viaje.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_viaje.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_viaje', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(212): view('viajes_gastos/detail_viaje', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:37 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:17:37 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:51 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:17:52 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:17:56 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:17:56 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:18:05 --> ErrorException: Undefined property: stdClass::$fecha_hora
+[Method: GET, Route: viajesgastos/detail/1]
+in APPPATH\Views\viajes_gastos\detail_viaje.php on line 67.
+ 1 APPPATH\Views\viajes_gastos\detail_viaje.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fecha_hora', 'C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_viaje.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\rides_new\\app\\Views\\viajes_gastos\\detail_viaje.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('viajes_gastos/detail_viaje', [], true)
+ 5 APPPATH\Controllers\Viajesgastos.php(212): view('viajes_gastos/detail_viaje', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:19:12 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:19:15 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:19:26 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:19:27 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:21:27 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:21:30 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:21:30 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:21:43 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:22:00 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:22:00 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:22:05 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:22:21 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:36:57 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:36:57 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-11-07 19:58:42 --> [DEPRECATED] Function strftime() is deprecated in APPPATH\Controllers\Dias.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:58:42 --> Error: Attempt to assign property "total_recaudado" on null
+[Method: GET, Route: dias/view/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Dias.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dias->view('assets', 'img', 'icon', '192x192.png')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 19:58:49 --> ErrorException: Attempt to read property "tipo_transaccion" on null
+[Method: GET, Route: viajesgastos/detail/assets/img/icon/192x192.png]
+in APPPATH\Controllers\Viajesgastos.php on line 197.
+ 1 APPPATH\Controllers\Viajesgastos.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tipo_transaccion" on null', 'C:\\laragon\\www\\rides_new\\app\\Controllers\\Viajesgastos.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Viajesgastos->detail('assets', 'img', 'icon', '192x192.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Viajesgastos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

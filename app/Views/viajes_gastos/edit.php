@@ -5,7 +5,7 @@
  <!-- App Header -->
  <div class="appHeader">
         <div class="left">
-        <a href="<?= base_url('dias/list/'.$datos->dia_id) ?>" class="headerButton goBack">
+        <a href="<?= base_url('dias/view/'.$datos->dia_id) ?>" class="headerButton goBack">
                 <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
         </div>

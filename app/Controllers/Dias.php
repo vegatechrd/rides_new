@@ -108,8 +108,10 @@ $fields['meta'] = $viaje[0]['meta'];
 	{
 
 		$datos_dia = $this->diasModel->where('id', $id)->first();
-		$lista_transacciones_dia = $this->viajesgastosModel->select('viajes_gastos.*, plataformas.descripcion as plataforma')
+		$lista_transacciones_dia = $this->viajesgastosModel->select('viajes_gastos.*, plataformas.descripcion as plataforma, 
+		categorias.subcategoria')
 		->join('plataformas', 'viajes_gastos.plataforma_id = plataformas.id', 'left')
+		->join('categorias', 'viajes_gastos.categoria_id = categorias.id', 'left')
 		->where('viajes_gastos.dia_id', $id)->findAll();
 			
 		$conteo_viajes = 1;
@@ -122,15 +124,13 @@ $fields['meta'] = $viaje[0]['meta'];
 			
 			
 			
-			if (floatval($valor_x_km) > 25.0) { $tipo_viaje =  'text-success'; }
+			if (floatval($valor_x_km) > 25.0) { $tipo_viaje =  'success'; }
 			elseif (floatval($valor_x_km) > 20.0 AND floatval($lista_transacciones_dia[$key]->total_kms) < 25.0) {
-			$tipo_viaje = 'text-warning';} else { $tipo_viaje =  'text-danger'; }
+			$tipo_viaje = 'warning';} else { $tipo_viaje =  'danger'; }
 
-			if ($value->tipo_transaccion == 1) { $tipo_transaccion = '<span class="badge badge-success">VIAJE</span>'; } 
-			else { $tipo_transaccion = '<span class="badge badge-danger">GASTO</span>';}
+			if ($value->tipo_transaccion == 1) { $tipo_transaccion = '<span class="badge badge-'.$tipo_viaje.'">'.$value->plataforma.'</span>'; } 
+			else { $tipo_transaccion = '<span class="badge badge-danger">GASTO '.$value->subcategoria.'</span>';}
 			
-
-			$lista_transacciones_dia[$key]->tipo_viaje = $tipo_viaje;
 			$lista_transacciones_dia[$key]->conteo_viajes = $conteo_viajes++;
 			$lista_transacciones_dia[$key]->tipo_transaccion_badge = $tipo_transaccion;
 			

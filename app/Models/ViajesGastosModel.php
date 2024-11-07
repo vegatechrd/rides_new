@@ -10,7 +10,7 @@ class ViajesGastosModel extends Model {
 	protected $returnType = 'object';
 	protected $useSoftDeletes = false;
 	protected $allowedFields = ['tipo_transaccion','categoria_id','kms_recogida', 'mins_recogida', 'kms_destino', 'mins_destino', 'propina', 'total', 'plataforma_id', 
-	'tarjeta', 'efectivo', 'dia_id', 'hora_creacion', 'kms_recorridos','precio_galon'];
+	'tarjeta', 'efectivo', 'dia_id', 'hora_creacion', 'kms_recorridos','precio_galon', 'comentario'];
 	protected $useTimestamps = false;
 	protected $createdField  = 'created_at';
 	protected $updatedField  = 'updated_at';
@@ -18,8 +18,8 @@ class ViajesGastosModel extends Model {
 	protected $validationRules    = [];
 	protected $validationMessages = [];
 	protected $skipValidation     = true;   
-	
 
+	
 	public function GetGananciasAll($fecha_inicio = null, $fecha_fin = null) {
 	
 		// Comenzamos con la consulta básica
